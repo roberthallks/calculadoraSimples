@@ -1,45 +1,30 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-}
-#div1{
-    width: 300px;
-    height: 600px;
-    border: 1px solid rgb(184, 178, 178);
-    background: rgb(184, 178, 178) ;
-}
-#valores{
-    width: 250px;
-    height: 60px;
-    margin: 20px 20px;
-    font-size: 25px ;
-}
-#cima{
-    width: 300px;
-    height: 100px;
 }
 
-.botoes{
-    width: 70px;
-    height: 80px;
+.calculadora {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
 }
-#b1{
-    width: 300px;
-    height: 100px;
+
+input {
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
-#b2{
-    width: 300px;
-    height: 100px;
-}
-#b3{
-    width: 300px;
-    height: 100px;
-}
-#b4{
-    width: 300px;
-    height: 100px;
-}
-#b5{
-    width: 300px;
-    height: 100px;
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
 }
